@@ -10,7 +10,7 @@ Ce projet propose une analyse exploratoire des données et une étude statistiqu
 ## 🔍 Découvertes Majeures & Storytelling
 
 ### 1. Segmentation nette par Voie de formation
-La voie de formation est le premier facteur discriminant de la réussite. La voie générale présente un effet de plafond avec une concentration extrême des établissements au-dessus de 95% de réussite. À l'inverse, la voie professionnelle affiche une dispersion beaucoup plus grande et des performances globales inférieures.
+La voie de formation est le premier facteur discriminant de la réussite. La voie générale présente un effet de plafond avec une concentration des établissements au-dessus de 95% de réussite. À l'inverse, la voie professionnelle affiche une dispersion beaucoup plus grande et des performances globales inférieures.
 
 Voici la distribution des taux de réussite observée :
 ![Distribution des voies](distribution_voies.png)
