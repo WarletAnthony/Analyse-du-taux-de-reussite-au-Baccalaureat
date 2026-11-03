@@ -28,6 +28,5 @@ Ces observations sont matérialisées par les points isolés tout en bas du Boxp
 ![Boxplot des voies](boxplot_voies.png)
 
 ## 🧼 Méthodologie et Rigueur Statistique
-* Nettoyage du dataset (vérification des types, suppression des doublons géographiques).
-* Analyse de la distribution et application du **test de Shapiro-Wilk** pour évaluer la normalité des variables quantitatives.
+* Nettoyage du dataset (vérification des types, suppression des doublons géographiques, recherche d'outliers).
 * Agrégation des données (`groupby`) pour synthétiser un fichier de plusieurs milliers de lignes en 101 entités départementales propres.
