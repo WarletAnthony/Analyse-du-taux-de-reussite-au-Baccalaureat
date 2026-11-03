@@ -16,10 +16,13 @@ Voici la distribution des taux de réussite observée :
 ![Distribution des voies](distribution_voies.png)
 
 ### 2. Analyse des Outliers : L'impact insulaire et l'effet banlieue
-En appliquant la méthode de l'Écart Interquartile (IQR), des "outliers extrêmes" ont été identifiés sous la barre des 65% de réussite. 
-L'analyse croisée des variables qualitatives révèle deux réalités de terrain :
-* **L'isolement insulaire (Outre-mer) :** Ce signal met en lumière les difficultés structurelles propres aux territoires ultramarins (Mayotte et la Guyane se classant en queue de peloton national).
-* **Le facteur grande couronne :** L'analyse montre également que les départements de la banlieue parisienne (93, 95, 91, 77) occupent le bas du classement de la France métropolitaine, devant les territoires ruraux.
+En appliquant la méthode de l'Écart Interquartile (IQR), l'algorithme a identifié une multitude d'établissements hors-normes (outliers inférieurs), visibles sous forme de points isolés sous les trois boîtes. 
+
+L'analyse croisée de ces points avec nos agrégations départementales révèle deux réalités distinctes :
+
+* **L'isolement insulaire (Les outliers extrêmes) :** Les points situés au niveau le plus bas du graphique (sous la barre des 66% pour la voie professionnelle) matérialisent un décrochage unique. Après vérification dans le dataset, ce signal statistique strict correspond exclusivement à des lycées professionnels des territoires ultramarins (Mayotte et la Guyane se classant d'ailleurs en queue de peloton national).
+* **Le facteur grande couronne (Les outliers intermédiaires) :** La longue traînée de points sous les filières générale et technologique (s'étalant de 70% à 85%) montre un phénomène de masse. En recoupant ces points avec notre classement par département, on constate qu'il s'agit principalement des lycées de la banlieue parisienne (93, 95, 91, 77), qui trustent le bas du classement de la France métropolitaine.
+
 
 Ces observations sont matérialisées par les points isolés tout en bas du Boxplot ci-dessous :
 ![Boxplot des voies](boxplot_voies.png)
