@@ -1,7 +1,7 @@
 # 📊 Analyse Statistique de la Réussite au Baccalauréat en France
 
 ## 📌 Présentation du Projet
-Ce projet propose une analyse exploratoire des données (EDA) et une étude statistique des taux de réussite au baccalauréat français par département. L'objectif est d'identifier les disparités de réussite à l'échelle nationale et de comprendre l'impact des facteurs géographiques et des voies de formation sur les résultats.
+Ce projet propose une analyse exploratoire des données et une étude statistique des taux de réussite au baccalauréat français par département. L'objectif est d'identifier les disparités de réussite à l'échelle nationale et de comprendre l'impact des facteurs géographiques et des voies de formation sur les résultats.
 
 ## 🛠️ Stack Technique
 * **Langage :** Python 3
