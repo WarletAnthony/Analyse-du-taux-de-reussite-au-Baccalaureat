@@ -23,6 +23,8 @@ L'analyse croisée de ces points avec nos agrégations départementales révèle
 * **L'isolement insulaire (Les outliers extrêmes) :** Les points situés au niveau le plus bas du graphique (sous la barre des 66% pour la voie professionnelle) matérialisent un décrochage unique. Après vérification dans le dataset, ce signal statistique strict correspond exclusivement à des lycées professionnels des territoires ultramarins (Mayotte et la Guyane se classant d'ailleurs en queue de peloton national).
 * **Le facteur grande couronne (Les outliers intermédiaires) :** La longue traînée de points sous les filières générale et technologique (s'étalant de 70% à 85%) montre un phénomène de masse. En recoupant ces points avec notre classement par département, on constate qu'il s'agit principalement des lycées de la banlieue parisienne (93, 95, 91, 77), qui trustent le bas du classement de la France métropolitaine.
 
+* **La "Success Story" (L'outlier supérieur de la voie pro) :** À l'inverse, le graphique met en évidence un point isolé unique tout en haut de la filière professionnelle, atteignant un taux de réussite exceptionnel (>96%). L'analyse de la variable qualitative révèle qu'il s'agit d'un établissement de l'**Académie de Toulouse**. Ce signal isole l'impact des filières pro industrielles et aéronautiques de pointe de la région toulousaine. Très sélectives et connectées à un tissu économique fort (Airbus et ses sous-traitants), ces structures parviennent graphiquement à égaler, voire dépasser, les standards de performance de la voie générale.
+
 
 Ces observations sont matérialisées par les points isolés tout en bas du Boxplot ci-dessous :
 ![Boxplot des voies](boxplot_voies.png)
