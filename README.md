@@ -38,7 +38,7 @@ L'introduction de la variable de genre confirme une tendance structurelle : les 
 
 Ce graphique met en lumière que le décrochage scolaire masculin est fortement corrélé aux filières professionnelles, un signal métier crucial pour les politiques d'orientation éducative.
 
-![Réussite en fonction du genre](comparaison_sexe_voie.png)
+![Réussite en fonction du genre](comparaison_genre_voie.png)
 
 ## 🧼 Méthodologie et Rigueur Statistique
 * Nettoyage du dataset (vérification des types, suppression des doublons géographiques, recherche d'outliers).
