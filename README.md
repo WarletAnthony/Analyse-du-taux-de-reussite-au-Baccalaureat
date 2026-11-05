@@ -29,6 +29,16 @@ L'analyse croisée de ces points avec nos agrégations départementales révèle
 Ces observations sont matérialisées par les points isolés tout en bas du Boxplot ci-dessous :
 ![Boxplot des voies](boxplot_voies.png)
 
+### 3. Analyse croisée par Sexe : Une disparité de genre marquée dans les filières courtes
+
+L'introduction de la variable de genre confirme une tendance structurelle : les filles surperforment les garçons dans les trois voies de formation. Néanmoins, l'intensité de cet écart varie fortement selon les filières :
+
+* **Voie Générale :** L'écart est marginal (~1,4 point), l'excellent niveau global de la filière créant une homogénéisation des performances vers le haut.
+* **Voie Professionnelle :** À l'inverse, c'est dans la filière professionnelle que la fracture de genre est la plus prononcée. Les garçons y affichent le taux de réussite le plus bas du jeu de données national (~82,3%), subissant un écart de plus de 4 points par rapport aux filles. 
+
+Ce graphique met en lumière que le décrochage scolaire masculin est fortement corrélé aux filières professionnelles, un signal métier crucial pour les politiques d'orientation éducative.
+
+
 ## 🧼 Méthodologie et Rigueur Statistique
 * Nettoyage du dataset (vérification des types, suppression des doublons géographiques, recherche d'outliers).
 * Agrégation des données (`groupby`) pour synthétiser un fichier de plusieurs milliers de lignes en 101 entités départementales propres.
