@@ -7,6 +7,11 @@ Ce projet propose une analyse exploratoire des données et une étude statistiqu
 * **Langage :** Python 3
 * **Librairies :** Pandas (Manipulation), NumPy (Calcul), SciPy (Statistiques), Matplotlib & Seaborn (Visualisation)
 
+## 📅 Source des Données
+* **Origine :** Ministère de l’Éducation nationale et de la Jeunesse (DEPP)
+* **Jeu de données :** Indicateurs de résultat des lycées
+* **Plateforme :** [Data.gouv.fr](https://data.gouv.fr)
+
 ## 🔍 Découvertes Majeures & Storytelling
 
 ### 1. Segmentation nette par Voie de formation
