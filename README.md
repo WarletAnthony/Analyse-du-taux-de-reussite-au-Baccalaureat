@@ -40,6 +40,7 @@ Ce graphique met en lumière que le décrochage scolaire masculin est fortement 
 
 ![Réussite en fonction du genre](comparaison_genre_voie.png)
 
+
 ## 🧼 Méthodologie et Rigueur Statistique
 * Nettoyage du dataset (vérification des types, suppression des doublons géographiques, recherche d'outliers).
 * Agrégation des données (`groupby`) pour synthétiser un fichier de plusieurs milliers de lignes en 101 entités départementales propres.
