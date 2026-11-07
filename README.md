@@ -51,5 +51,7 @@ Ce graphique met en lumière que le décrochage scolaire masculin est fortement 
 
 ## 🔮 Perspectives d'évolutions (Backlog)
 Pour aller plus loin dans cette étude de l'impact socio-économique sur le système éducatif, les prochaines étapes de ce portfolio seront :
+
 1. **Analyse de cohorte :** Croiser ces résultats avec les taux de réussite au DNB (Brevet) et au CFG par département pour mesurer si le décrochage scolaire s'amorce dès le collège.
 2. **Jointure de données :** Intégrer les indices de position sociale (IPS) des établissements pour corréler mathématiquement le niveau de vie des familles avec les trajectoires de réussite.
+
