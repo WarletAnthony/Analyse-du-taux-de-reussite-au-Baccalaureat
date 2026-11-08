@@ -34,7 +34,7 @@ L'analyse croisée de ces points avec nos agrégations départementales révèle
 Ces observations sont matérialisées par les points isolés tout en bas du Boxplot ci-dessous :
 ![Boxplot des voies](boxplot_voies.png)
 
-### 3. Analyse croisée par Sexe : Une disparité de genre marquée dans les filières courtes
+### 3. Analyse croisée par Genre : Une disparité de genre marquée dans les filières courtes
 
 L'introduction de la variable de genre confirme une tendance structurelle : les filles surperforment les garçons dans les trois voies de formation. Néanmoins, l'intensité de cet écart varie fortement selon les filières :
 
