@@ -18,7 +18,7 @@ Pour cloner le projet et installer toutes les dépendances nécessaires dans vot
 
 1. Clonez le dépôt GitHub :
    ```bash
-   git clone https://github.com/WarletAnthony/Analyse-du-taux-de-reussite-au-Baccalaureat/tree/main
+   git clone https://github.com/WarletAnthony/Analyse-du-taux-de-reussite-au-Baccalaureat.git
    cd Analyse-du-taux-de-reussite-au-Baccalaureat
    ```
 
