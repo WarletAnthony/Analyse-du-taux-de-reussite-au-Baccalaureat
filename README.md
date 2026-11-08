@@ -12,6 +12,25 @@ Ce projet propose une analyse exploratoire des données et une étude statistiqu
 * **Jeu de données :** Indicateurs de résultat des lycées
 * **Plateforme :** [Data.gouv.fr](https://data.gouv.fr)
 
+  ## 🚀 Installation et Utilisation
+
+Pour cloner le projet et installer toutes les dépendances nécessaires dans votre environnement Python :
+
+1. Clonez le dépôt GitHub :
+   ```bash
+   git clone https://github.com/WarletAnthony/Analyse-du-taux-de-reussite-au-Baccalaureat/tree/main
+   cd Analyse-du-taux-de-reussite-au-Baccalaureat
+   ```
+
+2. Installez les bibliothèques requises :
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Lancez le notebook d'analyse :
+   * Ouvrez le fichier notebook avec Jupyter ou VS Code pour exécuter les cellules.
+
+
 ## 🔍 Découvertes Majeures & Storytelling
 
 ### 1. Segmentation nette par Voie de formation
