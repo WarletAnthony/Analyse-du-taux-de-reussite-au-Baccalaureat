@@ -7,7 +7,7 @@ Ce projet propose une analyse exploratoire des données et une étude statistiqu
 * **Langage :** Python 3
 * **Manipulation & Calcul :** Pandas, NumPy
 * **Audit & Exploration interactive :** Skimpy, PyGWalker
-* **Requêtage Analytique :** SQL (via DuckDB)
+* **Requêtage Analytique :** SQL (via DuckDB) (à programmer)
 * **Statistiques & Visualisation :** SciPy, Matplotlib, Seaborn
 
 ## 📅 Source des Données
