@@ -5,5 +5,6 @@ seaborn
 scipy
 skimpy
 pygwalker
+duckdb
 jupyter
 ipykernel
