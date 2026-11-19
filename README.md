@@ -67,6 +67,13 @@ Ce graphique met en lumière que le décrochage scolaire masculin est fortement 
 
 ![Réussite en fonction du genre](comparaison_genre_voie.png)
 
+### 4. Approfondissement en SQL : Détection des écarts pondérés par filière
+Pour affiner le diagnostic au-delà des moyennes brutes, une analyse complémentaire en **SQL (DuckDB)** a été intégrée au notebook. En utilisant des **CTE (`WITH`)** et des **fonctions de fenêtrage (`OVER PARTITION BY`)**, chaque département est comparé non pas à un seuil fixe, mais à la **moyenne nationale pondérée de sa propre filière** :
+
+* **Fiabilité statistique :** Le calcul des taux pondérés (`SUM(admis) / SUM(présents)`) corrige l'effet taille entre les petits départements ruraux et les grands pôles urbains.
+* **Diagnostic dynamique :** Les territoires accusant un retard de plus de **5 points** par rapport à la moyenne de leur voie sont automatiquement isolés en « Alerte décrochage », confirmant la vulnérabilité des territoires ultramarins (Mayotte, Guyane) et de certains départements franciliens.
+
+
 ### 💡 Conclusion de l'Analyse Inférentielle :
 
 L'application du **T-Test de Student (Welch)** sur la voie professionnelle nous donne des résultats sans équivoque :
