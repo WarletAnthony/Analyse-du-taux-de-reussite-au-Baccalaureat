@@ -5,7 +5,9 @@ Ce projet propose une analyse exploratoire des données et une étude statistiqu
 
 ## 🛠️ Stack Technique
 * **Langage :** Python 3
-* **Librairies :** Pandas (Manipulation), NumPy (Calcul), Scipy (statistiques), Matplotlib & Seaborn (Visualisation)
+* **Manipulation & Calcul :** Pandas, NumPy
+* **Exploration interactive & Audit :** Skimpy, PyGWalker
+* **Statistiques & Visualisation :** SciPy, Matplotlib, Seaborn
 
 ## 📅 Source des Données
 * **Origine :** Ministère de l’Éducation nationale et de la Jeunesse (DEPP)
