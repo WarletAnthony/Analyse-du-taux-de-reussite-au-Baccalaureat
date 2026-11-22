@@ -85,12 +85,7 @@ La statistique $T$ extrêmement élevée ($>12$) démontre que la distance entre
 
 Nous confirmons donc avec une certitude scientifique absolue que **le décrochage scolaire masculin au baccalauréat est un phénomène structurel et systémique, spécifiquement ancré dans la filière professionnelle**. C'est un signal clé pour les politiques publiques d'orientation et de lutte contre le décrochage.
 
-
-## 🧼 Méthodologie et Rigueur Statistique
-* Nettoyage du dataset (vérification des types, suppression des doublons géographiques, recherche d'outliers).
-* Agrégation des données (`groupby`) pour synthétiser un fichier de plusieurs milliers de lignes en 101 entités départementales propres.
-
-* ### 4. Approfondissement en SQL : Détection dynamique et suivi chronologique
+###  Approfondissement en SQL : Détection dynamique et suivi chronologique
 
 Une analyse complémentaire en **SQL (via DuckDB)** a été intégrée directement sur les DataFrames Pandas en utilisant des **fonctions de fenêtrage (`OVER PARTITION BY`)** et des expressions conditionnelles (`CASE WHEN`). Chaque couple département-session-genre est comparé dynamiquement à la moyenne nationale de sa propre filière (`95,99 %` en voie Générale contre `84,51 %` en voie Professionnelle) :
 
