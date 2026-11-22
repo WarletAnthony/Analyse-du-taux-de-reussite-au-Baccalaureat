@@ -76,7 +76,7 @@ Une analyse complémentaire en **SQL (via DuckDB)** a été intégrée directeme
 * **Dynamiques temporelles contrastées :** Le tri chronologique révèle un rattrapage spectaculaire à Mayotte (+14,2 points pour les garçons entre 2023 et 2025) et une amélioration régulière en Seine-Saint-Denis (`87,8 %` à `90,0 %`), tandis que les résultats du Val-d'Oise ne cesse de descendre (`89,9 %` à `88,5 %`).
 * **Focus Voie Professionnelle (84 alertes sur 2023–2025) :**
   * **Fracture de genre :** **89,3 %** des situations de décrochage important concernent les garçons (75 cas contre 9 pour les filles).
-  * **Récurrence territoriale :** La Guyane (-17,19 pts en moyenne) et Mayotte (-15,44 pts) décrochent systématiquement sur les 3 sessions et pour les deux sexes (6/6), tandis que la grande couronne parisienne (95, 93, 91, 77, 92) décroche chaque année exclusivement chez les garçons (3/6).
+  * **Récurrence territoriale :** La Guyane (-17,19 pts en moyenne) et Mayotte (-15,44 pts) décrochent systématiquement sur les 3 sessions et pour les deux sexes (6/6), tandis que la grande couronne parisienne (95, 93, 91, 77, 92) décroche chaque année exclusivement chez les garçons (3/6). L'aisne a également amélioré ses résultat (décrochage pour les deux genres en 2023, et pour un seul les deux autres années)
   * **Dynamique temporelle :** Le nombre total d'alertes recule progressivement, passant de 30 cas en 2023 à 26 en 2025.
 
 
