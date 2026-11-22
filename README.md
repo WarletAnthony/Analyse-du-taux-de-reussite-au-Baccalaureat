@@ -74,6 +74,11 @@ Une analyse complémentaire en **SQL (via DuckDB)** a été intégrée directeme
 * **Concentration territoriale en Voie Générale :** Seuls **4 départements** accusent un retard supérieur à 5 points (« Décrochage important ») sur la période 2023–2025 : **Mayotte (976)**, la **Guyane (973)**, la **Seine-Saint-Denis (93)** et le **Val-d'Oise (95)**.
 * **Double fracture territoriale et de genre :** Alors que les territoires ultramarins (973, 976) sont touchés pour les deux sexes, le décrochage en France métropolitaine (93, 95) concerne **exclusivement les garçons** sur les trois sessions étudiées.
 * **Dynamiques temporelles contrastées :** Le tri chronologique révèle un rattrapage spectaculaire à Mayotte (+14,2 points pour les garçons entre 2023 et 2025) et une amélioration régulière en Seine-Saint-Denis (`87,8 %` à `90,0 %`), tandis que les résultats du Val-d'Oise ne cesse de descendre (`89,9 %` à `88,5 %`).
+* **Focus Voie Professionnelle (84 alertes sur 2023–2025) :**
+  * **Fracture de genre :** **89,3 %** des situations de décrochage important concernent les garçons (75 cas contre 9 pour les filles).
+  * **Récurrence territoriale :** La Guyane (-17,19 pts en moyenne) et Mayotte (-15,44 pts) décrochent systématiquement sur les 3 sessions et pour les deux sexes (6/6), tandis que la grande couronne parisienne (95, 93, 91, 77, 92) décroche chaque année exclusivement chez les garçons (3/6).
+  * **Dynamique temporelle :** Le nombre total d'alertes recule progressivement, passant de 30 cas en 2023 à 26 en 2025.
+
 
 
 ### 💡 Conclusion de l'Analyse Inférentielle :
