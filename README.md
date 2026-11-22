@@ -67,11 +67,13 @@ Ce graphique met en lumière que le décrochage scolaire masculin est fortement 
 
 ![Réussite en fonction du genre](comparaison_genre_voie.png)
 
-### 4. Approfondissement en SQL : Détection des écarts pondérés par filière
-Pour affiner le diagnostic au-delà des moyennes brutes, une analyse complémentaire en **SQL (DuckDB)** a été intégrée au notebook. En utilisant des **CTE (`WITH`)** et des **fonctions de fenêtrage (`OVER PARTITION BY`)**, chaque département est comparé non pas à un seuil fixe, mais à la **moyenne nationale pondérée de sa propre filière** :
+###  Approfondissement en SQL : Détection dynamique et suivi chronologique
 
-* **Fiabilité statistique :** Le calcul des taux pondérés (`SUM(admis) / SUM(présents)`) corrige l'effet taille entre les petits départements ruraux et les grands pôles urbains.
-* **Diagnostic dynamique :** Les territoires accusant un retard de plus de **5 points** par rapport à la moyenne de leur voie sont automatiquement isolés en « Alerte décrochage », confirmant la vulnérabilité des territoires ultramarins (Mayotte, Guyane) et de certains départements franciliens.
+Une analyse complémentaire en **SQL (via DuckDB)** a été intégrée directement sur les DataFrames Pandas en utilisant des **fonctions de fenêtrage (`OVER PARTITION BY`)** et des expressions conditionnelles (`CASE WHEN`). Chaque couple département-session-genre est comparé dynamiquement à la moyenne nationale de sa propre filière (`95,99 %` en voie Générale contre `84,51 %` en voie Professionnelle) :
+
+* **Concentration territoriale en Voie Générale :** Seuls **4 départements** accusent un retard supérieur à 5 points (« Décrochage important ») sur la période 2023–2025 : **Mayotte (976)**, la **Guyane (973)**, la **Seine-Saint-Denis (93)** et le **Val-d'Oise (95)**.
+* **Double fracture territoriale et de genre :** Alors que les territoires ultramarins (973, 976) sont touchés pour les deux sexes, le décrochage en France métropolitaine (93, 95) concerne **exclusivement les garçons** sur les trois sessions étudiées.
+* **Dynamiques temporelles contrastées :** Le tri chronologique révèle un rattrapage spectaculaire à Mayotte (+14,2 points pour les garçons entre 2023 et 2025) et une amélioration régulière en Seine-Saint-Denis (`87,8 %` à `90,0 %`), tandis que le Val-d'Oise connaît une érosion continue (`89,9 %` à `88,5 %`).
 
 
 ### 💡 Conclusion de l'Analyse Inférentielle :
@@ -84,14 +86,6 @@ L'application du **T-Test de Student (Welch)** sur la voie professionnelle nous 
 La statistique $T$ extrêmement élevée ($>12$) démontre que la distance entre les moyennes de réussite des deux genres est gigantesque par rapport à la dispersion des données. La *p-value*, quant à elle, élimine mathématiquement toute hypothèse de hasard. 
 
 Nous confirmons donc avec une certitude scientifique absolue que **le décrochage scolaire masculin au baccalauréat est un phénomène structurel et systémique, spécifiquement ancré dans la filière professionnelle**. C'est un signal clé pour les politiques publiques d'orientation et de lutte contre le décrochage.
-
-###  Approfondissement en SQL : Détection dynamique et suivi chronologique
-
-Une analyse complémentaire en **SQL (via DuckDB)** a été intégrée directement sur les DataFrames Pandas en utilisant des **fonctions de fenêtrage (`OVER PARTITION BY`)** et des expressions conditionnelles (`CASE WHEN`). Chaque couple département-session-genre est comparé dynamiquement à la moyenne nationale de sa propre filière (`95,99 %` en voie Générale contre `84,51 %` en voie Professionnelle) :
-
-* **Concentration territoriale en Voie Générale :** Seuls **4 départements** accusent un retard supérieur à 5 points (« Décrochage important ») sur la période 2023–2025 : **Mayotte (976)**, la **Guyane (973)**, la **Seine-Saint-Denis (93)** et le **Val-d'Oise (95)**.
-* **Double fracture territoriale et de genre :** Alors que les territoires ultramarins (973, 976) sont touchés pour les deux sexes, le décrochage en France métropolitaine (93, 95) concerne **exclusivement les garçons** sur les trois sessions étudiées.
-* **Dynamiques temporelles contrastées :** Le tri chronologique révèle un rattrapage spectaculaire à Mayotte (+14,2 points pour les garçons entre 2023 et 2025) et une amélioration régulière en Seine-Saint-Denis (`87,8 %` à `90,0 %`), tandis que le Val-d'Oise connaît une érosion continue (`89,9 %` à `88,5 %`).
 
 
 ## 🔮 Perspectives d'évolutions (Backlog)
