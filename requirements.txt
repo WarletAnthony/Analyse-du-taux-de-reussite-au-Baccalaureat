@@ -1,8 +1,8 @@
 ipykernel
-pandas
+pandas==3.0.5
 matplotlib
 seaborn
 scipy
 duckdb
 pygwalker
-skimpy
+skimpy==0.1.1
