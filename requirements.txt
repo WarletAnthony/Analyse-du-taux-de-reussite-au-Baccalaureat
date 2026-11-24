@@ -1,10 +1,8 @@
-numpy
+ipykernel
 pandas
 matplotlib
 seaborn
 scipy
-skimpy
-pygwalker
 duckdb
-jupyter
-ipykernel
+pygwalker
+skimpy
